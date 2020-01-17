@@ -56,13 +56,14 @@ body {
 .form .message{
     margin:15px 0 0 ;
     color: #4CAF50;
-    font-size:12px;
+    font-size:20px;
     
 }
 
 .form .message a{
-    color: #4CAF50;
+    color: white;
     text-decoration: none;
+    font-size: 20px;
     
 }
 
