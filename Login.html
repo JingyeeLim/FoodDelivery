@@ -1,53 +1,75 @@
+
 <html>
-    <head>
-        <title>Login and Registration</title>
-        <link rel="stylesheet" href="Login.css">
-    </head>
-    <body>
-        <div class="navbar">
-            <div class="logo">
-                <img src="logo3.jpg">
-            </div>
-        <div class="menu">
-            <ul>
-                <li><span><a href="Homepage.html" style="color:white" > Home </a></span></li>
-                <li><span><a href="Menu.html " style="color:white">Menu</a></span></li>
-                <li><span><a href="AboutUs.html" style="color:white">About Us</a></span></li>
-                <li><span><a href="ContactUs.html" style="color:white">Contact Us</a></span></li>
-                <li><img src="A1.png"></li>
-                
-            </ul>
+    
+<head>
+    <title>The Disaster Café</title>
+    <link rel="stylesheet" href="Login.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="nav">
+        <div class="logo">
+        <a href="Homepage.html">The Disaster Café</a>
         </div>
-        </div> 
+        <ul class="nav-links">
+        <li>
+            <a href="Menu.html">Menu</a>
+        </li>
+        <li>
+            <a href="AboutUs.html">About Us</a>
+        </li>
+        <li>
+            <a href="ContactUs.html">Contact Us</a>
+        </li>
+        <li>
+            <a href="Login.html"><button type="button" class="btn btn-success">Login</button></a>
+        </li>
+       </ul>
+    </div>
+        <div class="content">
         <div class="login-page">
             <h1>The Disaster Café</h1>
         
             <div class="form">
                 
                 <form class = "register-form">
+                <input type="text" placeholder="First name"/>
+                <input type="text" placeholder="Last name"/>
+                <input type="text" placeholder="Address"/>
+                <input type="text" placeholder="Phone number"/>
                 <input type="text" placeholder="username"/>
                 <input type="password" placeholder="password"/>
                 <input type="text" placeholder="email address"/>
                 <button> Register now </button>
-                    <p class="message">Already Registered? &nbsp; <a href="#">Login Here </a></p>
+                <p class="message">Already Registered? &nbsp; <a href="#">Login Here </a></p>
                 </form>
                 <form class="login-form">
                 <input type="text" placeholder="username"/>
                 <input type="password" placeholder="password"/>
-                <button> Login </button>
+                <button type="submit" class="btn" name="login_btn"> Login </button>
                 <p class="message">Not Yet Registered? &nbsp; <a href="#"> Register Here </a></p>
                 </form>
+                
             </div>
+            <br><br><br><br><br><br>
         </div>
+        </div>
+    <div class="footer">
+        <div class="logo">
+        <a href="Homepage.html">The Disaster Café</a>
+        </div>
+        <h4>Call Us for any queries : +6016-XXXXXXX </h4>
+        
+    </div>
         
         <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
         
-        <script>
-        $('.message a').click(function(){
-            $('form').animate({height: "toggle",opacity:"toggle"},"slow");
-        })
-        </script>
-        
+       <script src="login.js"></script>
+  
+
         
         
     </body>

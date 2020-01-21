@@ -1,52 +1,54 @@
 
-
-.navbar{
-    width:  80% ;
-    height: 15vh;
-    display:  flex;
-    align-items: center ;
-    margin : auto ;
-    position: relative;
-    
-}
-
-.logo{
-    flex-basis: 60%;
-    padding-top: 70px;
-    cursor : pointer;
+#{
+    margin:8px;
+    padding:0px;
+    box-sizing :border-box ;
 
 }
-
-.menu{
-    padding-top: 50px;
-    flex-basis: 80%;
+.content{
+        background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(3.jpg);
+        background-size:cover;
+        background-position: center;
+}
+.nav{
     display: flex;
-    align-items:  right;
-    position: relative;
-}
-
-.menu ul li{
-    list-style: none;
-    display: inline-block;
-    padding: auto;
-    margin: 0 20px ;
-    font-size: 30px ;
-    cursor : pointer ;
-}
-.menu img{
-    padding-left: 10px;
-    width: 20px;
-    margin: auto;
-    cursor : pointer;
-}
-.menu span{
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
     
-    font-size: 25px ;
+    
+}
+.logo a{
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 22px;
+    cursor : pointer;
+    text-decoration: none;
+}
+.nav-links{
+    
+    display:flex;
+    justify-content:space-around;
+    width: 40%;
+     
+}
+.nav-links li{
+    list-style: none;
+    
+}
+.nav-links a{
     color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 
-.menu ul li button {
+.nav ul li button {
     
     font-family: "Roboto",sans-serif;
     text-transform :uppercase;
@@ -61,38 +63,34 @@
     
 }
 
-body {
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(3.jpg);
-    height:100vh;
-    background-size:cover;
-    background-position: center;
-}
-.logo img{
-    padding-top:1px;
-    width: 160px;
-    height:100px;
-    cursor : pointer;
-}
+
 
 h1{
-    font-family: "Roboto",sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Bowlby One SC', cursive;
+    letter-spacing: 5px;
     font-size: 40px;
     color:aliceblue;
-    padding-top: 200px;
+    padding-top: 100px;
     padding-left: 100px;
     padding-right: 50px;
     margin: auto;
     
 }
-
+.form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
 .form input{
     font-family: "Roboto",sans-serif;
     outline: 1;
     background: white;
-    width:30%;
-    border: 10;
-    margin:30 100 30px;
     padding-left: 10px;
+    padding-right: 10px;
     box-sizing: border-box;
     font-size: 25px;
 }
@@ -101,38 +99,38 @@ h1{
     
     font-family: "Roboto",sans-serif;
     text-transform :uppercase;
-    outline: 0;
     background: #4CAF50;
-    width: 15% ;
-    border: 0 ;
-    margin:auto;
-    padding-top: 12px;
+    outline-color: black;
+    padding-top: 7px;
     padding-bottom: 6px;
-    padding-left:auto;
-    color: #FFFFFF;
     font-size: 18px;
     cursor:pointer;
     
 }
 
 h2{
-    font-family: "Roboto",sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Bowlby One SC', cursive;
+    letter-spacing: 5px;
     font-size: 40px;
     color: white ;
-    padding-top: 70px;
-    padding-left: 100px;
-    padding-right: 50px;
+    padding:50px;
     margin: auto;
 }
 
+.Specialities{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
 .Specialities img{
     flex-basis: 5%;
     width:200px;
     height:180px;
-    padding-left: 100px;
-    padding-top: 30px;
-    padding-bottom: 25px;
-    position: relative;
+    padding:25px;
     cursor : pointer;
     
 }
@@ -141,6 +139,21 @@ h2{
     padding-top: 20px;
 }
 
+.footer{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     min-height: 15vh;
+    
+}
+
+h4{
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+}
 
 
 
