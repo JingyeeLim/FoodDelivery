@@ -1,5 +1,6 @@
-#{
-    margin:8px;
+
+body{
+    margin:0px;
     padding:0px;
     box-sizing :border-box ;
 
@@ -79,7 +80,7 @@ p{
     font-family: "Roboto",sans-serif;
     font-size: 25px;
     color: aliceblue;
-    padding: 40px;
+    padding: 5px;
     margin: 20px;
 }
 h2{
